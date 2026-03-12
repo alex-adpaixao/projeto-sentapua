@@ -1,1 +1,42 @@
+# Semana 1 — Tópicos Preliminares
 
+Livro base:
+Lógica de Programação – André Luiz Villar Forbellone (3ª edição)
+
+## Conteúdo
+
+- algoritmo
+- variáveis
+- entrada e saída
+- operadores
+
+## Estudos
+
+Pag. 42 a 45
+
+## Exercícios
+
+Pag. 45
+- Exercício de Fixação 1 - 1.1 a 1.3
+
+Mais exercícios:
+Excelente exercício para lógica de programação. Vou te dar **alguns mais difíceis**, no mesmo estilo, para seus alunos treinarem.
+Perfeito, vou montar **exercícios com a mesma pegada** (entrada de dados + fórmula matemática + algoritmo). Você pode usar direto com os alunos.
+
+**EXERCÍCIOS DE FIXAÇÃO II**
+
+EXERCÍCIOS DE FIXAÇÃO II
+2.1 Construa um algoritmo para calcular a área de um triângulo, sabendo que a base (B) e a altura (H) são fornecidas pelo usuário. A fórmula é: A = (B * H) / 2.
+2.2 Construa um algoritmo que calcule a área de um círculo, sendo que o raio (R) é fornecido pelo usuário. A fórmula é: A = π * R². Utilizando os operadores matemáticos: A = π * pot(R,2).
+2.3 Construa um algoritmo que calcule a média aritmética de três notas, sendo que as notas são fornecidas pelo usuário. A fórmula é: M = (N1 + N2 + N3) / 3.
+2.4 Construa um algoritmo para calcular o perímetro de um retângulo, sendo que a base (B) e a altura (H) são fornecidas pelo usuário. A fórmula é: P = 2 * (B + H).
+2.5 Construa um algoritmo que calcule o volume de um cilindro, sendo que o raio (R) e a altura (H) são fornecidos pelo usuário. A fórmula é: V = π * R² * H. Utilizando os operadores matemáticos: V = π * pot(R,2) * H.
+2.6 Construa um algoritmo que calcule a velocidade média de um veículo, sabendo que a distância (D) percorrida e o tempo (T) gasto são fornecidos pelo usuário. A fórmula é: VM = D / T.
+2.7 Construa um algoritmo para calcular o valor final de uma compra, sabendo que o preço do produto (P) e a quantidade (Q) são fornecidos pelo usuário. A fórmula é: TOTAL = P * Q.
+2.8 Construa um algoritmo para calcular o salário total de um funcionário, sabendo que o salário base (SB) e a porcentagem de bônus (B) são fornecidos pelo usuário. A fórmula é: SAL = SB + (SB * B / 100).
+2.9 Construa um algoritmo que calcule o volume de um cubo, sendo que o lado (L) é fornecido pelo usuário. A fórmula é: V = L³. Utilizando os operadores matemáticos: V = pot(L,3).
+2.10 Construa um algoritmo para calcular a conversão de graus Celsius para Fahrenheit, sendo que a temperatura em Celsius (C) é fornecida pelo usuário. A fórmula é: F = (C * 9 / 5) + 32.
+
+Obs.: Separe no mínimo 15 minutos para resolver o problema, caso não consiga, colpque a questão no ChatGpt que ele responde;
+- Tente antes de ver a resposta;
+- Caso resolva, veja a resposta no ChatGpt
