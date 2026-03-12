@@ -1,0 +1,88 @@
+# Semana 1 — Tópicos Preliminares
+
+Livro base:
+Lógica de Programação – André Luiz Villar Forbellone (3ª edição)
+
+## Conteúdo
+
+- algoritmo
+- variáveis
+- entrada e saída
+- operadores
+
+## Exercícios
+
+Pag. 30
+- Exercício de Fixação 2 - 2.1 a 2.3
+Mais exercícios:
+Excelente exercício para lógica de programação. Vou te dar **alguns mais difíceis**, no mesmo estilo, para seus alunos treinarem.
+
+# Assinale os identificadores válidos
+
+a) aluno1
+b) _nota
+c) 2valor
+d) media_final
+e) salario$
+f) nota-final
+g) idadeAluno
+h) somaTotal2
+i) valor@total
+j) contador123
+k) _
+l) resultadoFinal
+m) 3DObjeto
+n) nome_completo
+o) total%
+p) mediaGeral2025
+
+# Agora um nível mais difícil
+
+Assinale os identificadores válidos:
+
+a) A1B2C3
+b) __contador
+c) nota1ªProva
+d) valor_total
+e) media.final
+f) x
+g) aluno-1
+h) soma_total_final
+i) $salario
+j) temp123
+k) *temp
+l) notaFinal2024
+m) aluno#1
+n) contador_final_2
+o) 1resultado
+p) resultadoFinal*
+
+#  Encontre os erros nas declarações
+
+inteiro: idade, salário, peso;
+real: altura, mediaFinal, 2nota;
+caracter: nome, letra, char;
+logico: aprovado, status, media;
+
+# Outro mais difícil
+
+Encontre os erros:
+
+inteiro: 1numero, total_itens, qtd;
+real: peso, altura, media-final;
+caracter: nome_aluno, sobrenome, nome completo;
+logico: aprovado, reprovado, verdadeiro;
+
+# Nível avançado
+
+Identifique **todos os erros**:
+
+inteiro: contador, soma-total, valor1;
+real: mediaFinal, nota#1, nota2;
+caracter: nomeAluno, cidade, endereço;
+logico: aprovado, resultadoFinal, status@;
+
+
+Obs.: Separe no mínimo 15 minutos para resolver o problema, caso não consiga, colpque a questão no ChatGpt que ele responde;
+- Tente antes de ver a resposta;
+- Caso resolva, veja a resposta no ChatGpt
