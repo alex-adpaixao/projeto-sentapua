@@ -10,10 +10,15 @@ Lógica de Programação – André Luiz Villar Forbellone (3ª edição)
 - entrada e saída
 - operadores
 
+## Estudos
+
+Pag. 26 a 41
+
 ## Exercícios
 
 Pag. 30
 - Exercício de Fixação 2 - 2.1 a 2.3
+
 Mais exercícios:
 Excelente exercício para lógica de programação. Vou te dar **alguns mais difíceis**, no mesmo estilo, para seus alunos treinarem.
 
@@ -82,6 +87,30 @@ real: mediaFinal, nota#1, nota2;
 caracter: nomeAluno, cidade, endereço;
 logico: aprovado, resultadoFinal, status@;
 
+Pag. 37
+- Exercício de Fixação 4 - 4.1
+
+Mais exercícios:
+Considere: A = 4, B = 9, C = 2,5, D = 6 e uma variável lógica L = F. Determine o resultado das expressões lógicas:
+
+a) B > A e (C * 2 <= D)
+b) A * B = D * C ou B div A > C
+c) não L e A + B > D * 2
+d) rad(B * A) >= C * 4 ou L
+e) B mod A = 1 e D / A > C
+f) pot(A,2) <= B * D ou C * 3 > B
+g) (B div A) + D >= B ou não L
+h) pot(A,3) > B * D e C * 5 <= A * B
+i) rad(A * B) = D ou C * 4 >= B
+j) não (B > A) ou D div A = 1
+k) A * B > C * 10 e L ou B div A = 2
+l) rad(D * B) >= A * C ou não L
+m) B mod D = A ou C * 2 > A
+n) pot(D,2) >= A * B e não (C > A)
+o) B / A >= C ou L e D mod A = 2
+
+Pag. 38
+- Exercício de Fixação 5 - 5.1
 
 Obs.: Separe no mínimo 15 minutos para resolver o problema, caso não consiga, colpque a questão no ChatGpt que ele responde;
 - Tente antes de ver a resposta;
