@@ -1,42 +1,49 @@
-# Semana 1 — Estrutura de Controle
+# Semana 2 — Estrutura de Controle
 
 Livro base:
 Lógica de Programação – André Luiz Villar Forbellone (3ª edição)
 
 ## Conteúdo
 
-- algoritmo
-- variáveis
-- entrada e saída
-- operadores
+- Condicional
 
 ## Estudos
 
-Pag. 42 a 45
+Pag. 42 a 59
 
 ## Exercícios
 
-Pag. 45
-- Exercício de Fixação 1 - 1.1 a 1.3
+- TODOS TEM QUE SER FEITO NO PAPEL
+
+Pag. 57
+- Exercício de Fixação 2 - 2.1 a 2.10
 
 Mais exercícios:
-Excelente exercício para lógica de programação. Vou te dar **alguns mais difíceis**, no mesmo estilo, para seus alunos treinarem.
-Perfeito, vou montar **exercícios com a mesma pegada** (entrada de dados + fórmula matemática + algoritmo). Você pode usar direto com os alunos.
-
-**EXERCÍCIOS DE FIXAÇÃO II**
-
-EXERCÍCIOS DE FIXAÇÃO II
-2.1 Construa um algoritmo para calcular a área de um triângulo, sabendo que a base (B) e a altura (H) são fornecidas pelo usuário. A fórmula é: A = (B * H) / 2.
-2.2 Construa um algoritmo que calcule a área de um círculo, sendo que o raio (R) é fornecido pelo usuário. A fórmula é: A = π * R². Utilizando os operadores matemáticos: A = π * pot(R,2).
-2.3 Construa um algoritmo que calcule a média aritmética de três notas, sendo que as notas são fornecidas pelo usuário. A fórmula é: M = (N1 + N2 + N3) / 3.
-2.4 Construa um algoritmo para calcular o perímetro de um retângulo, sendo que a base (B) e a altura (H) são fornecidas pelo usuário. A fórmula é: P = 2 * (B + H).
-2.5 Construa um algoritmo que calcule o volume de um cilindro, sendo que o raio (R) e a altura (H) são fornecidos pelo usuário. A fórmula é: V = π * R² * H. Utilizando os operadores matemáticos: V = π * pot(R,2) * H.
-2.6 Construa um algoritmo que calcule a velocidade média de um veículo, sabendo que a distância (D) percorrida e o tempo (T) gasto são fornecidos pelo usuário. A fórmula é: VM = D / T.
-2.7 Construa um algoritmo para calcular o valor final de uma compra, sabendo que o preço do produto (P) e a quantidade (Q) são fornecidos pelo usuário. A fórmula é: TOTAL = P * Q.
-2.8 Construa um algoritmo para calcular o salário total de um funcionário, sabendo que o salário base (SB) e a porcentagem de bônus (B) são fornecidos pelo usuário. A fórmula é: SAL = SB + (SB * B / 100).
-2.9 Construa um algoritmo que calcule o volume de um cubo, sendo que o lado (L) é fornecido pelo usuário. A fórmula é: V = L³. Utilizando os operadores matemáticos: V = pot(L,3).
-2.10 Construa um algoritmo para calcular a conversão de graus Celsius para Fahrenheit, sendo que a temperatura em Celsius (C) é fornecida pelo usuário. A fórmula é: F = (C * 9 / 5) + 32.
+1. Leia um número inteiro. Mostre "PAR" se ele for par, ou "ÍMPAR" caso contrário.
+2. Leia dois números inteiros diferentes. Mostre qual deles é o maior.
+3. Leia a nota de um aluno (0 a 10). Mostre: Aprovado se a nota ≥ 7; Recuperação se a nota ≥ 5 e < 7; Reprovado se a nota < 5.
+4. Leia um número inteiro. Verifique se ele é positivo, negativo ou zero.
+5. Leia três números inteiros. Mostre o maior deles.
+6. Leia um número inteiro. Verifique se ele é múltiplo de 3.
+7. Leia um número inteiro. Verifique se ele é múltiplo de 3 e de 5 ao mesmo tempo.
+8. Leia a idade de uma pessoa. Mostre: Criança se idade < 12; Adolescente se idade entre 12 e 17; Adulto se idade ≥ 18.
+9. Leia dois números inteiros. Verifique se eles são iguais ou diferentes.
+10. Leia um número inteiro. Verifique se ele está entre 10 e 20.
+11. Leia um número inteiro. Mostre "MAIOR QUE 100" se ele for maior que 100, caso contrário mostre "MENOR OU IGUAL A 100".
+12. Leia dois números inteiros. Mostre "IGUAIS" se forem iguais ou "DIFERENTES" caso contrário.
+13. Leia três números inteiros. Verifique se o primeiro número é o maior entre eles.
+14. Leia um número inteiro. Verifique se ele é múltiplo de 2 ou de 3.
+15. Leia um número inteiro. Verifique se ele está entre 1 e 10.
+16. Leia dois números inteiros. Mostre o menor deles.
+17. Leia um número inteiro. Verifique se ele é divisível por 4.
+18. Leia a idade de uma pessoa. Mostre "MAIOR DE IDADE" se ela tiver 18 anos ou mais, caso contrário mostre "MENOR DE IDADE".
+19. Leia um número inteiro. Verifique se ele é maior que 50 e menor que 100.
+20. Leia três números inteiros. Verifique se todos são iguais.
 
 Obs.: Separe no mínimo 15 minutos para resolver o problema, caso não consiga, colpque a questão no ChatGpt que ele responde;
 - Tente antes de ver a resposta;
 - Caso resolva, veja a resposta no ChatGpt
+
+
+
+
