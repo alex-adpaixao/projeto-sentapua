@@ -350,6 +350,40 @@ Crie uma função que receba um vetor e verifique se ele está ordenado.
 Crie uma função que receba dois números e retorne o MDC (máximo divisor comum).
 Crie uma função que receba um número e retorne a quantidade de dígitos.
 
+Exercícios mais avançados
+Claro! Segue o texto sem linhas, direto para copiar e colar 👇
+
+---
+
+EXERCÍCIOS PROPOSTOS
+
+1. Supondo os módulos a seguir, indique o tipo de contexto de cada um: 
+a) Dígito verificador do CPF 
+b) Inversão de matrizes 
+c) Eliminação de registros de um arquivo 
+d) Média aritmética 
+e) Resto da divisão 
+f) Juros compostos 
+g) Aumento nos preços dos produtos 
+h) Relação dos alunos reprovados
+
+2. Construa um módulo que calcule o resto da divisão entre dois números (sem utilizar o operador mod).
+3. Construa um módulo que calcule o quociente inteiro da divisão entre dois números (sem utilizar o operador div).
+4. Construa um módulo capaz de obter a raiz quadrada inteira de um número inteiro qualquer.
+5. Construa um módulo que identifique se um número é ou não divisível por 6.
+6. Construa um módulo que identifique se um número é ou não primo.
+7. Construa um módulo que imprima todos os divisores de dado número.
+8. Construa um módulo capaz de obter o MMC entre dois números inteiros quaisquer.
+9. Construa um módulo capaz de obter o MDC entre dois números inteiros quaisquer.
+10. Construa um módulo capaz de calcular a exponenciação para quaisquer base e expoentes inteiros.
+11. Construa um módulo que apresente o valor absoluto de dado número.
+12. Construa um módulo capaz de calcular o fatorial de um número.
+13. Construa um módulo que calcule o Arranjo de n elementos, p a p. Utilize a fórmula A = n!/(n-p)!.
+14. Construa um módulo que calcule o número de Combinações de n elementos p a p. Utilize a fórmula C = n!/p!(n-p)!.
+15. Construa um módulo que faça o arredondamento científico de qualquer valor fracionário.
+16. Construa um algoritmo modularizado que, a partir de um vetor de 100 inteiros, possibilite: a) a digitação dos valores no vetor; b) imprimir o valor do somatório de seus itens; c) imprimir a média dos valores fornecidos; d) calcular o desvio-padrão; e) substituir por zero todos os valores negativos; f) substituir por zero todos os valores repetidos (maiores que zero).
+17. Construa um algoritmo que calcule o somatório dos n primeiros termos da série de Fibonacci (1, 1, 2, 3, 5, ...).
+
 Obs.: Separe no mínimo 15 minutos para resolver o problema, caso não consiga, colpque a questão no ChatGpt que ele responde;
 - Tente antes de ver a resposta;
 - Caso resolva, veja a resposta no ChatGpt
