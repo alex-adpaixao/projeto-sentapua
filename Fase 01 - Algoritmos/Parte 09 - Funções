@@ -1,1 +1,355 @@
+# Semana 8 — Funções
 
+## O que é uma função
+
+Função é um bloco de código criado para **resolver uma tarefa específica**.
+
+Ela ajuda a:
+* organizar o programa
+* evitar repetição de código
+* facilitar testes
+* deixar a lógica mais clara
+
+Uma função pode:
+* receber valores de entrada
+* processar esses valores
+* devolver um resultado
+
+---
+
+## Estrutura básica
+
+funcao nome(parametros): tipo
+   inicio
+      comando
+      retorne valor
+   fim
+
+Exemplo:
+
+funcao soma(a, b): inteiro
+   inicio
+      retorne a + b
+   fim
+
+Uso:
+
+x <- soma(3, 5)
+escreva(x)
+
+Resultado:
+8
+
+---
+
+# Parâmetros
+
+Os parâmetros são os valores que a função recebe para trabalhar.
+
+Exemplo:
+
+funcao quadrado(n): inteiro
+   inicio
+      retorne n * n
+   fim
+
+Se chamar:
+
+quadrado(4)
+
+o valor retornado será:
+16
+
+---
+
+# Função sem parâmetro
+
+Nem toda função precisa receber valores.
+
+funcao mensagem(): caractere
+   inicio
+      retorne "Treinando para a Maratona"
+   fim
+
+---
+
+# Função com mais de um parâmetro
+
+funcao maior(a, b): inteiro
+   inicio
+      se a > b entao
+         retorne a
+      senao
+         retorne b
+      fimse
+   fim
+
+---
+
+# Valor por cópia
+
+Quando o parâmetro é passado **por valor**, a função recebe apenas **uma cópia** do dado.
+
+Isso significa:
+
+* a função pode alterar a cópia
+* o valor original fora da função não muda
+
+Exemplo:
+
+funcao teste(x): inteiro
+   inicio
+      x <- x + 10
+      retorne x
+   fim
+
+Programa principal:
+
+a <- 5
+b <- teste(a)
+
+escreva(a)
+escreva(b)
+
+Saída:
+5
+15
+
+### Explicação
+
+A função mudou apenas a cópia de `a`.
+O valor original continuou sendo `5`.
+
+---
+
+# Valor por referência
+
+Quando o parâmetro é passado **por referência**, a função trabalha com a **variável original**.
+
+Isso significa:
+
+* se a função alterar o parâmetro
+* a variável original também muda
+
+Exemplo:
+
+procedimento aumentar(var x)
+   inicio
+      x <- x + 10
+   fim
+
+Programa principal:
+
+a <- 5
+aumentar(a)
+escreva(a)
+
+Saída:
+
+15
+
+### Explicação
+
+Agora a função mexeu diretamente em `a`, não em uma cópia.
+
+---
+
+# Diferença entre valor e referência
+
+## Por valor
+
+* envia uma cópia
+* não altera a variável original
+* mais seguro
+* muito usado em cálculos
+
+## Por referência
+
+* envia a variável original
+* pode alterar o valor fora da função
+* útil quando se quer modificar dados diretamente
+* muito usado com vetores, matrizes e troca de valores
+
+---
+
+# Função e procedimento
+
+## Função
+
+Retorna um valor.
+
+Exemplo:
+
+funcao dobro(x): inteiro
+   inicio
+      retorne x * 2
+   fim
+
+## Procedimento
+
+Não retorna valor diretamente.
+Serve para executar ações.
+
+Exemplo:
+
+procedimento mostrarDobro(x)
+   inicio
+      escreva(x * 2)
+   fim
+
+---
+
+# Exemplo clássico: trocar dois valores
+
+## Ideia por valor
+
+Não funciona para trocar de verdade fora da função.
+
+procedimento trocar(a, b)
+   inicio
+      aux <- a
+      a <- b
+      b <- aux
+   fim
+
+Se chamar:
+x <- 3
+y <- 8
+trocar(x, y)
+
+Os valores originais continuam os mesmos.
+
+## Ideia por referência
+
+Agora funciona.
+
+procedimento trocar(var a, var b)
+   inicio
+      aux <- a
+      a <- b
+      b <- aux
+   fim
+
+Chamada:
+
+x <- 3
+y <- 8
+trocar(x, y)
+
+Agora:
+
+* `x = 8`
+* `y = 3`
+
+---
+
+# Exemplo com vetor
+
+Em problemas de Maratona, é comum passar vetor para função.
+
+procedimento lerVetor(var v, n)
+   inicio
+      para i de 1 ate n faca
+         leia(v[i])
+      fimpara
+   fim
+
+Nesse caso, usa-se referência para que a função realmente altere o vetor original.
+
+---
+
+# Quando usar cada um
+
+Use **por valor** quando:
+
+* quiser apenas calcular algo
+* não quiser alterar a variável original
+* estiver trabalhando com números simples
+
+Use **por referência** quando:
+
+* quiser modificar a variável fora da função
+* quiser trocar valores
+* quiser alterar vetor ou matriz
+* quiser evitar cópias grandes
+
+---
+
+# Exemplos curtos para treino
+
+## Exemplo 1
+
+funcao soma(a, b): inteiro
+   inicio
+      retorne a + b
+   fim
+
+## Exemplo 2
+
+funcao par(n): logico
+   inicio
+      retorne n % 2 = 0
+   fim
+
+## Exemplo 3
+
+procedimento zerar(var x)
+   inicio
+      x <- 0
+   fim
+
+## Exemplo 4
+
+procedimento incrementar(var x)
+   inicio
+      x <- x + 1
+   fim
+
+---
+
+## Exercícios
+🔹 Nível 1 – Entender função (retorno simples)
+Crie uma função que receba um número inteiro e retorne o seu dobro.
+Crie uma função que receba um número e retorne o seu quadrado.
+Crie uma função que receba um número e retorne se ele é positivo.
+Crie uma função que receba dois números e retorne a soma deles.
+Crie uma função que receba dois números e retorne o maior entre eles.
+
+🔹 Nível 2 – Uso com decisão
+Crie uma função que receba um número e retorne se ele é par ou ímpar.
+Crie uma função que receba três números e retorne o maior deles.
+Crie uma função que receba a idade de uma pessoa e retorne se ela é maior de idade.
+Crie uma função que receba um número e retorne se ele está entre 10 e 50.
+Crie uma função que receba um número e retorne se ele é múltiplo de 3.
+
+🔹 Nível 3 – Funções com repetição
+Crie uma função que receba um número N e retorne a soma de 1 até N.
+Crie uma função que receba um número e retorne o fatorial dele.
+Crie uma função que receba um número e retorne quantos divisores ele possui.
+Crie uma função que receba um número e retorne se ele é primo.
+Crie uma função que receba um número e retorne a soma dos seus dígitos.
+
+🔹 Nível 4 – Funções com vetores
+Crie uma função que receba um vetor e retorne a soma dos elementos.
+Crie uma função que receba um vetor e retorne o maior valor.
+Crie uma função que receba um vetor e retorne quantos números são pares.
+Crie uma função que receba um vetor e retorne a média dos valores.
+Crie uma função que receba um vetor e retorne quantas vezes um número X aparece.
+
+🔹 Nível 5 – Funções por referência
+Crie um procedimento que receba uma variável e aumente seu valor em 10.
+Crie um procedimento que receba uma variável e a torne zero.
+Crie um procedimento que receba duas variáveis e troque seus valores.
+Crie um procedimento que receba um vetor e dobre todos os seus elementos.
+Crie um procedimento que receba um vetor e substitua valores negativos por zero.
+
+🔹 Nível 6 – Estilo maratona (mais pensamento 🔥)
+Crie uma função que receba um número e retorne o próximo número primo.
+Crie uma função que receba um vetor e retorne o segundo maior valor.
+Crie uma função que receba um vetor e verifique se ele está ordenado.
+Crie uma função que receba dois números e retorne o MDC (máximo divisor comum).
+Crie uma função que receba um número e retorne a quantidade de dígitos.
+
+Obs.: Separe no mínimo 15 minutos para resolver o problema, caso não consiga, colpque a questão no ChatGpt que ele responde;
+- Tente antes de ver a resposta;
+- Caso resolva, veja a resposta no ChatGpt
