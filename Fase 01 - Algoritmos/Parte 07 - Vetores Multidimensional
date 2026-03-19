@@ -1,0 +1,60 @@
+# Semana 6 — Vetores Multidimensional
+
+Livro base:
+Lógica de Programação – André Luiz Villar Forbellone (3ª edição)
+
+## Conteúdo
+
+- Vetores
+
+## Estudos
+
+Pag. 88 a 97
+
+## Exercícios
+
+- TODOS TEM QUE SER FEITO NO PAPEL
+
+Pag. 95 a 97
+- Exercício de Fixação 2 - 2.1, 2.2a, 2.4
+
+Exercícios Extras
+
+🔹 Nível 1 – Básico (entender matriz)
+Leia uma matriz 3x3 e mostre todos os elementos.
+Leia uma matriz 3x3 e calcule a soma de todos os elementos.
+Leia uma matriz 4x4 e mostre apenas os elementos da diagonal principal.
+Leia uma matriz 3x3 e conte quantos números são maiores que zero.
+Leia uma matriz 3x3 e encontre o maior valor.
+
+🔹 Nível 2 – Intermediário
+Leia uma matriz 3x3 e calcule a soma de cada linha.
+Leia uma matriz 3x3 e calcule a soma de cada coluna.
+Leia uma matriz 4x4 e mostre os elementos da diagonal secundária.
+Leia uma matriz 3x3 e verifique se ela é uma matriz identidade.
+Leia duas matrizes 2x2 e gere uma terceira com a soma das duas.
+
+🔹 Nível 3 – Intermediário avançado
+Leia uma matriz 3x3 e verifique se ela é simétrica.
+Leia uma matriz 3x3 e calcule a soma dos elementos acima da diagonal principal.
+Leia uma matriz 3x3 e calcule a soma dos elementos abaixo da diagonal principal.
+Leia uma matriz e encontre o maior elemento de cada linha.
+Leia uma matriz e encontre o menor elemento de cada coluna.
+
+🔹 Nível 4 – Avançado (estilo maratona)
+Leia uma matriz e encontre o maior subquadrado com todos os valores positivos.
+Leia uma matriz e conte quantos elementos são iguais a um valor X.
+Leia uma matriz e rotacione ela 90 graus para a direita.
+Leia uma matriz e espelhe ela horizontalmente.
+Leia uma matriz e verifique se todas as linhas são iguais.
+
+🔹 Nível 5 – Desafio (nível maratona 🔥)
+Leia uma matriz e encontre o maior caminho possível (movendo apenas direita ou baixo).
+Leia uma matriz e calcule a soma máxima de um sub-retângulo.
+Leia uma matriz binária e encontre o maior bloco de 1’s.
+Leia uma matriz e determine o menor caminho entre dois pontos.
+Leia uma matriz e verifique se existe um caminho de uma ponta a outra apenas com valores positivos.
+
+Obs.: Separe no mínimo 15 minutos para resolver o problema, caso não consiga, colpque a questão no ChatGpt que ele responde;
+- Tente antes de ver a resposta;
+- Caso resolva, veja a resposta no ChatGpt
