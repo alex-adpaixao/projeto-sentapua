@@ -1,0 +1,60 @@
+# Semana 5 — Vetores e Matrizes
+
+Livro base:
+Lógica de Programação – André Luiz Villar Forbellone (3ª edição)
+
+## Conteúdo
+
+- Vetores
+- matrizes
+
+## Estudos
+
+Pag. 80 a 88
+
+## Exercícios
+
+- TODOS TEM QUE SER FEITO NO PAPEL
+
+Pag. 87 a 88
+- Exercício de Fixação 1 - 1.1 a 1.5
+
+Exercícios Extras
+🔹 Nível 1 – Básico (aquecimento)
+Leia um vetor de 10 números inteiros e mostre todos os valores na ordem inversa.
+Leia um vetor com 8 números e mostre apenas os números pares.
+Leia um vetor de 6 posições e informe a soma de todos os elementos.
+Leia um vetor de 5 posições e mostre o maior valor.
+Leia um vetor de 7 posições e conte quantos números são positivos.
+
+🔹 Nível 2 – Intermediário
+Leia um vetor de 10 posições e informe a posição do maior valor.
+Leia um vetor de 10 posições e troque todos os valores negativos por zero.
+Leia um vetor de 8 posições e crie um segundo vetor com o dobro dos valores.
+Leia dois vetores de mesmo tamanho e gere um terceiro vetor com a soma dos elementos correspondentes.
+Leia um vetor e verifique se existe algum valor repetido.
+
+🔹 Nível 3 – Intermediário avançado
+Leia um vetor de 10 posições e verifique se ele está ordenado em ordem crescente.
+Leia um vetor e conte quantas vezes um determinado número aparece.
+Leia um vetor e remova (ignore) todos os valores iguais a zero ao exibir.
+Leia um vetor e encontre o segundo maior valor.
+Leia um vetor e verifique se ele é um palíndromo (igual de trás para frente).
+
+🔹 Nível 4 – Avançado (estilo maratona)
+Leia um vetor e rotacione os elementos uma posição para a direita.
+Leia um vetor e mova todos os números negativos para o final, mantendo a ordem dos positivos.
+Leia um vetor e encontre o maior segmento crescente contínuo.
+Leia um vetor e calcule a soma máxima de um subvetor contínuo.
+Leia um vetor e determine quantos pares de elementos têm soma igual a um valor X.
+
+🔹 Nível 5 – Desafio (pensamento de maratona mesmo 🔥)
+Dado um vetor, determine se é possível dividi-lo em duas partes com a mesma soma.
+Leia um vetor e encontre o menor subvetor cuja soma seja maior que um valor X.
+Dado um vetor, encontre o elemento que aparece mais vezes.
+Leia um vetor e determine o número mínimo de trocas para ordená-lo.
+Dado um vetor, encontre todos os elementos que aparecem apenas uma vez.
+
+Obs.: Separe no mínimo 15 minutos para resolver o problema, caso não consiga, colpque a questão no ChatGpt que ele responde;
+- Tente antes de ver a resposta;
+- Caso resolva, veja a resposta no ChatGpt
