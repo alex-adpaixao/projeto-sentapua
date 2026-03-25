@@ -1,1 +1,68 @@
+Ambientes de Desenvolvimento de Programas
+Para computadores desktop e notebooks, fazer o download do ambiente Code::Blocks:
+
+Windows (7, 8 e 10).
+Linux: Instale o pacote "codeblocks" usando o aplicativo de Gerência de Instalação de Programas de sua distribuição Linux (Synaptic em Ubuntu, aptitude em Debian, etc.). 
+
+Caso você não consiga, faça o download do programa, seguindo as instruções aqui.
+
+Consulte o site do ambiente Code::Blocks(https://www.codeblocks.org/) para procedimentos de instalação em outros sistemas operacionais.
+
+Para tablets e celulares Android, sugere-se qualquer um dos seguintes aplicativos, disponíveis no Google Play: Coding C++
+
+Para iPad e iPhone, sugere-se qualquer um dos apicativos abaixo, disponíveis na Apple App Store: C++ Free, Mobile C/C++ Compiler
+
+Existe também um site para compilação on-line: o Repl.it C++ online
+
+O Correto é no Línux
+
+
+Ambiente Linux para Maratona de Programação (C++)
+1. Atualizar o sistema
+
+sudo apt update && sudo apt upgrade -y
+
+2. Instalar o compilador C++ (g++)**
+
+sudo apt install g++ -y
+
+3. Verificar a instalação
+
+g++ --version
+
+✔️ Deve aparecer a versão do compilador
+
+4. Instalar ferramentas úteis
+
+sudo apt install build-essential -y
+
+5. Criar um arquivo de teste
+
+nano main.cpp
+
+Exemplo de código:
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, Maratona!" << endl;
+    return 0;
+}
+
+6. Compilar o programa
+
+g++ main.cpp -o main
+
+7. Executar
+
+./main
+
+Dica para Maratona
+
+Use sempre:
+
+g++ -O2 -std=c++17 main.cpp -o main
+
+✔️ Melhor desempenho e compatibilidade com juízes online
 
